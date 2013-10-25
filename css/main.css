@@ -1,0 +1,1935 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ==========================================================================
+ * CSS TEMPLATE STYLE CLASS STANDARDS
+ * ========================================================================= */
+
+.sample-style-class {
+
+	/* Positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	/* Box Model */
+	display: block;
+	width: 100%;
+	margin: 5px;
+	
+	/* Typography */
+	font-family: "Helvetica Neue", Helvetica, Sans-Serif;
+	font-size: 13px;
+	line-height: 20px;
+	
+	/* Visual */
+	background-color: #666;
+	border-bottom: 1px solid #111;
+	
+	/* Vendor Prefixed */
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+
+}
+
+body {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	margin: 0;
+	padding: 0;
+	
+	/* Typography */
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	
+	/* Visual */
+	background: url(../images/img_template_bg.png) no-repeat top center scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+#template-wrap {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	margin: 290px auto 150px auto;
+	max-width: 1240px;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	
+	/* Vendor Prefixed */
+	
+}
+
+
+/* Menu
+ * ========================================================================= */
+.nav-wrap {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.menu-wrap {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #67b0d1;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.menu-wrap .search {
+	
+	/* Positioning */
+	float: right;
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.nav-wrap ul {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	margin: 0;
+	padding: 0;
+	
+	/* Typography */
+	list-style: none;
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.nav-wrap ul li {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid #7ebcd8;
+	
+	/* Typography */
+	list-style: none;
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.nav-wrap ul li a {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	margin: 0;
+	padding: 0;
+	display: block;
+	padding: 40px 35px;
+	
+	/* Typography */
+	list-style: none;
+	text-decoration: none;
+	font-size: 19px;
+	
+	/* Visual */
+	color: white;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.nav-wrap ul li a:hover {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #7ebcd8;
+	
+	/* Vendor Prefixed */
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-o-transition: .4s;
+	
+}
+
+.nav-wrap ul li.add a {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	width: 36px;
+	height: 36px;
+	padding: 0;
+	margin: 39px 35px 31px 35px;
+	
+	/* Typography */
+	
+	/* Visual */
+	color: transparent;
+	background: transparent url(../images/icon_sprite.png) no-repeat -102px -37px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.menu-wrap .search {
+	
+	/* Positioning */
+	position: relative;
+	
+	/* Box Model */
+	margin: 33px 35px 0 0;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.menu-wrap .search input[type="text"] {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	/*width: 220px;*/
+	width: 130px;
+	padding: 12px 40px 12px 12px;
+	margin: 0;
+	border: none;
+	
+	/* Typography */
+	font-style: italic;
+	
+	/* Visual */
+	background: #4c9dc1;
+	color: #73ccf4;
+	font-size: 16px;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.menu-wrap .search input[type="text"]:focus {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	width: 220px;
+	
+	/* Typography */
+	font-style: normal;
+	
+	/* Visual */
+	color: #fff;
+	
+	/* Vendor Prefixed */
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-o-transition: .4s;
+	
+}
+
+.menu-wrap .search .icon {
+	
+	/* Positioning */
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	
+	/* Box Model */
+	width: 16px;
+	height: 17px;
+	display: block;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -247px -56px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+
+/* Widgets
+ * ========================================================================= */
+.widgets {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	margin-top: 30px;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widgets table tr td {
+	
+	/* Positioning */
+	vertical-align: top;
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+/* Weather */
+.widget-weather {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	width: 100%;
+	box-sizing: border-box;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #3bbec0;
+	color: white;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .summary {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	padding: 43px 35px 27px 35px;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .icon-big .icon {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	width: 94px;
+	height: 74px;
+	display: block;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -1px 1px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .icon-big, .widget-weather .summary .temp {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	width: 50%;
+	box-sizing: border-box;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .summary .temp {
+	
+	/* Positioning */
+	padding-left: 60px;
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .temp .val {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	font-size: 60px;
+	line-height: 40px;
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .temp .detail {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	font-size: 15px;
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .search {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	padding: 17px 28px;
+	border-top: 1px solid #53c6c8;
+	border-bottom: 1px solid #53c6c8;
+	
+	/* Typography */
+	font-size: 15px;
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .search .location, .widget-weather .search .searchbar {
+	
+	/* Positioning */
+	position: relative;
+	
+	/* Box Model */
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+	
+	/* Typography */
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .search .searchbar input[type="text"] {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	padding: 5px 5px 5px 27px;
+	
+	/* Typography */
+	font-size: small;
+	
+	/* Visual */
+	background: #319ba1;
+	color: white;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .search .searchbar {
+	
+	/* Positioning */
+	position: relative;
+	
+	/* Box Model */
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+	
+	/* Typography */
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .search .searchbar .icon {
+	
+	/* Positioning */
+	position: absolute;
+	left: 8px;
+	top: 7px;
+	
+	/* Box Model */
+	width: 12px;
+	height: 12px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -247px -40px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .schedule .day {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	width: 14.2%;
+	box-sizing: border-box;
+	padding: 20px 12px;
+	border-right: 1px solid #53c6c8;
+	
+	/* Typography */
+	text-align: center;
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .schedule .day.last {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	border-right: 0;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-weather .schedule .day .icon span {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	display: block;
+	width: 27px;
+	height: 30px;
+	margin: auto;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat 0 0 scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+/* Weather widget Icon positioning */
+.widget-weather .schedule .day .icon.s span {
+	background-position: -178px -81px;
+}
+.widget-weather .schedule .day .icon.r span {
+	background-position: -206px -81px;
+}
+.widget-weather .schedule .day .icon.ps span {
+	background-position: -236px -81px;
+}
+.widget-weather .schedule .day .icon.c span {
+	background-position: -264px -81px;
+}
+.widget-weather .schedule .day .icon.pr span {
+	background-position: -344px -81px;
+}
+
+/* Menu widget */
+.widget-menu {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	width: 100%;
+	margin-top: 30px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #4ad585;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-menu ul {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	margin: 0;
+	padding: 0;
+	
+	/* Typography */
+	list-style: none;
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-menu ul li {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	width: 25%;
+	box-sizing: border-box;
+	
+	/* Typography */
+	
+	/* Visual */
+	cursor: pointer;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-menu ul li a.main {
+	
+	/* Positioning */
+	float: left;
+	position: relative;
+	
+	/* Box Model */
+	display: block;
+	width: 37px;
+	height: 32px;
+	padding: 30px 33px;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-menu ul li a.main .icon {
+	
+	/* Positioning */
+	position: absolute;
+	
+	/* Box Model */
+	width: 37px;
+	height: 32px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat 0 0 scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-menu ul li.m:hover ul.sub {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-menu ul li.m {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	border-right: 1px solid #64db96;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-menu ul li.m:hover {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #64db96;
+	
+	/* Vendor Prefixed */
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-o-transition: .4s;
+	
+}
+
+
+/* Menu widget Icon positioning */
+.widget-menu ul li a.main.favorites .icon {
+	background-position: 3px -79px;
+}
+.widget-menu ul li a.main.message .icon {
+	background-position: -34px -80px;
+}
+.widget-menu ul li a.main.music .icon {
+	background-position: -73px -80px;
+}
+.widget-menu ul li a.main.radio .icon {
+	background-position: -112px -78px;
+}
+
+.widget-menu ul li a.main ul.sub {
+	
+	/* Positioning */
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 92px;
+	
+	/* Box Model */
+	border: 1px solid #7fa6ba;
+	display: none;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: white;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-menu ul li a.main ul.sub li {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	min-width: 190px;
+	padding: 20px 15px;
+	
+	/* Typography */
+	
+	/* Visual */
+	color: #97a2ad;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-menu ul li a.main ul.sub li:hover {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #4ad585;
+	color: white;
+	
+	/* Vendor Prefixed */
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-o-transition: .4s;
+	
+}
+
+/* Toggle widget */
+.widget-toggle {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	width: 95%;
+	margin-top: 30px;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-toggle .prev-next, .widget-toggle .add-delete {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	background: white;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-toggle .prev-next span.prev {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	box-sizing: border-box;
+	margin: 15px 20px;
+	width: 12px;
+	height: 13px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -329px -59px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-toggle .prev-next span.next {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	box-sizing: border-box;
+	margin: 15px 20px;
+	width: 12px;
+	height: 13px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -342px -59px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-toggle .prev-next span.active {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	display: block;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #e87352;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-toggle .prev-next span.active span {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -280px -59px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-toggle .add-delete span.add {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	box-sizing: border-box;
+	margin: 15px 20px;
+	width: 12px;
+	height: 13px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -296px -59px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-toggle .add-delete span.delete {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	box-sizing: border-box;
+	margin: 15px 20px;
+	width: 12px;
+	height: 13px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -314px -59px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-toggle .add-delete span.active {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	display: block;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #3bbec0;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-toggle .add-delete span.active span {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -296px -59px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+/* Social widget */
+.widget-social {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	width: 90%;
+	padding: 48px 35px 28px 35px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	
+	/* Typography */
+	text-align: center;
+	
+	/* Visual */
+	background: #ebc85e;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-social .name {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	font-weight: bold;
+	font-size: 23px;
+	
+	/* Visual */
+	color: #56462a;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-social .title, .widget-social .counter {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	font-size: 15px;
+	
+	/* Visual */
+	color: #836d48;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-social .avatar {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	margin: 27px auto;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-social .button {
+	
+	/* Positioning */
+	position: relative;
+	
+	/* Box Model */
+	margin: 57px auto 0 auto;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-social .button a {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	padding: 15px 0;
+	display: block;
+	
+	/* Typography */
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	
+	/* Visual */
+	background: #a48b60;
+	color: white;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-social .button .icon {
+	
+	/* Positioning */
+	position: absolute;
+	top: 12px;
+	left: 65px;
+	
+	/* Box Model */
+	display: block;
+	width: 26px;
+	height: 26px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -218px -46px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+/* Dropdown widget */
+.widget-dropdown {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	width: 90%;
+	margin: 30px auto 0 auto;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-dropdown .select {
+	
+	/* Positioning */
+	position: relative;
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #67b0d1;
+	cursor: pointer;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-dropdown .select:hover {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #76c0e2;
+	
+	/* Vendor Prefixed */
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-o-transition: .4s;
+	
+}
+
+.widget-dropdown .select .icon {
+	
+	/* Positioning */
+	position: absolute;
+	right: 16px;
+	top: 21px;
+	
+	/* Box Model */
+	width: 8px;
+	height: 12px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -357px -60px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-dropdown .select:hover .li {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-dropdown .select .li {
+	
+	/* Positioning */
+	position: absolute;
+	
+	/* Box Model */
+	width: 100%;
+	display: none;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: white;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-dropdown .select .li .list {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	padding: 15px 16px;
+	border-bottom: 1px solid #e8e8e8;
+	
+	/* Typography */
+	font-style: italic;
+	
+	/* Visual */
+	cursor: pointer;
+	color: #97a2ad;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-dropdown .select .li .list:hover {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #e1e1e1;
+	
+	/* Vendor Prefixed */
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-o-transition: .4s;
+	
+}
+
+.widget-dropdown .select .selected {
+	
+	/* Positioning */
+	position: relative;
+	
+	/* Box Model */
+	width: 100%;
+	padding: 15px 16px;
+	box-sizing: border-box;
+	
+	/* Typography */
+	
+	/* Visual */
+	color: white;
+	
+	/* Vendor Prefixed */
+	
+}
+
+/* Calendar widget */
+.widget-calendar {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	width: 100%;
+	box-sizing: border-box;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #e87352;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-calendar .navigation {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	padding: 35px 25px;
+	border-bottom: 1px solid #ea8164;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-calendar .navigation .prev, .widget-calendar .navigation .next {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	width: 20%;
+	box-sizing: border-box;
+	
+	/* Typography */
+	
+	/* Visual */
+	cursor: pointer;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-calendar .navigation .prev .icon {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	width: 32px;
+	height: 32px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -143px -41px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-calendar .navigation .next .icon {
+	
+	/* Positioning */
+	float: right;
+	
+	/* Box Model */
+	width: 32px;
+	height: 32px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -179px -41px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-calendar .navigation .month-year {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	width: 60%;
+	box-sizing: border-box;
+	
+	/* Typography */
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	
+	/* Visual */
+	color: white;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-calendar .date-block .day-row div.cell {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	width: 14.2%;
+	box-sizing: border-box;
+	padding: 10px;
+	
+	/* Typography */
+	font-size: 15px;
+	text-align: right;
+	font-weight: bold;
+	
+	/* Visual */
+	color: white;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-calendar .date-block {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	padding: 20px 15px 20px 10px;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-calendar .date-block .date-row div.cell {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	width: 14.2%;
+	box-sizing: border-box;
+	padding: 10px;
+	
+	/* Typography */
+	font-size: 15px;
+	text-align: right;
+	
+	/* Visual */
+	color: white;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-calendar .date-block .date-row div.cell span {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	display: inline-block;
+	
+	/* Typography */
+	
+	/* Visual */
+	cursor: pointer;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-calendar .date-block .date-row div.cell span:hover {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	color: #88361f;
+	
+	/* Vendor Prefixed */
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-o-transition: .4s;
+	
+}
+
+.widget-calendar .date-block .date-row div.cell.selected {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	padding: 0;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-calendar .date-block .date-row div.cell.inactive {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	color: #88361f;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-calendar .date-block .date-row div.cell.selected span {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	padding: 10px;
+	width: 20px;
+	height: 20px;
+	
+	/* Typography */
+	font-weight: bold;
+	
+	/* Visual */
+	color: #88361f;
+	background: white;
+	
+	/* Vendor Prefixed */
+	border-radius: 20px;
+	
+}
+
+
+/* Carousel widget */
+.widget-carousel {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	width: 100%;
+	height: 140px;
+	margin: 30px auto 0 auto;
+	box-sizing: border-box;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-carousel .prev, .widget-carousel .next {
+	
+	/* Positioning */
+	float: left;
+	position: relative;
+	
+	/* Box Model */
+	width: 10%;
+	height: 140px;
+	box-sizing: border-box;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: #ffffff;
+	cursor: pointer;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-carousel .prev .icon {
+	
+	/* Positioning */
+	position: absolute;
+	top: 62px;
+	left: 15px;
+	
+	/* Box Model */
+	width: 11px;
+	height: 17px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -328px -57px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-carousel .next .icon {
+	
+	/* Positioning */
+	position: absolute;
+	top: 62px;
+	left: 15px;
+	
+	/* Box Model */
+	width: 11px;
+	height: 17px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -342px -57px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-carousel .gallery-wrap {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	width: 80%;
+	height: 140px;
+	box-sizing: border-box;
+	padding: 0 5px;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-carousel .gallery-wrap .images {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	height: 140px;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-carousel .gallery-wrap .images img {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+/* Pagination widget */
+.widget-pagination {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 30px;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-pagination .prev, .widget-pagination .next {
+	
+	/* Positioning */
+	float: left;
+	position: relative;
+	
+	/* Box Model */
+	box-sizing: border-box;
+	padding: 13px;
+	width: 45px;
+	height: 45px;
+	margin-right: 2px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: white;
+	cursor: pointer;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-pagination .prev .icon {
+	
+	/* Positioning */
+	position: absolute;
+	top: 16px;
+	
+	/* Box Model */
+	width: 11px;
+	height: 13px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -329px -59px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-pagination .next .icon {
+	
+	/* Positioning */
+	position: absolute;
+	top: 16px;
+	
+	/* Box Model */
+	width: 11px;
+	height: 13px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -342px -59px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-pagination .pages {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-pagination .pages .page {
+	
+	/* Positioning */
+	float: left;
+	
+	/* Box Model */
+	box-sizing: border-box;
+	padding: 13px;
+	width: 45px;
+	height: 45px;
+	margin-right: 2px;
+	
+	/* Typography */
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	
+	/* Visual */
+	background: white;
+	color: #8895a3;
+	cursor: pointer;
+	
+	/* Vendor Prefixed */
+	
+}
+
+/* Pagination widget */
+.widget-pagination-grid {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 30px;
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-pagination-grid .prev, .widget-pagination-grid .next, .widget-pagination-grid .grid {
+	
+	/* Positioning */
+	float: left;
+	position: relative;
+	
+	/* Box Model */
+	box-sizing: border-box;
+	padding: 13px;
+	width: 45px;
+	height: 45px;
+	margin-right: 2px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: white;
+	cursor: pointer;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-pagination-grid .prev:hover, .widget-pagination-grid .next:hover, .widget-pagination-grid .grid:hover {
+	
+	/* Positioning */
+	
+	/* Box Model */
+	
+	/* Typography */
+	
+	/* Visual */
+	
+	/* Vendor Prefixed */
+	-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 5px rgba(50, 50, 50, 0.75);
+	
+}
+
+.widget-pagination-grid .prev .icon {
+	
+	/* Positioning */
+	position: absolute;
+	top: 16px;
+	
+	/* Box Model */
+	width: 11px;
+	height: 13px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -329px -59px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-pagination-grid .next .icon {
+	
+	/* Positioning */
+	position: absolute;
+	top: 16px;
+	
+	/* Box Model */
+	width: 11px;
+	height: 13px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -342px -59px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+.widget-pagination-grid .grid .icon {
+	
+	/* Positioning */
+	position: absolute;
+	top: 12px;
+	left: 11;
+	
+	/* Box Model */
+	width: 22px;
+	height: 22px;
+	
+	/* Typography */
+	
+	/* Visual */
+	background: url(../images/icon_sprite.png) no-repeat -153px -85px scroll;
+	
+	/* Vendor Prefixed */
+	
+}
+
+
+
+
+/* Helper Classes
+ * ========================================================================= */
+.clearfix {
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right{
+	float: right;
+}
+.hidden {
+	display: none;
+}
